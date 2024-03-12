@@ -13,11 +13,7 @@ function App() {
       <Fullname name="kassaye" Age="20">
         <p>This is my react world all are fine work amazing progress today</p>
          <button>Click me </button>
-         <p>The easiest way to debug websites built with React is to install the React Developer Tools browser extension. It is available for several popular browsers:
-
-Install for Chrome
-Install for Firefox
-Install for Edge</p>
+         <p>The easiest way to debug websites built with React is to install the React Developer Tools browser extension. It is available for several popular browsers:</p>
          </Fullname>
       <Fullname name="muse"Age="29"/>
       <Fullname name="aron"Age="24"/>
