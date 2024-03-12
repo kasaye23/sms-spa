@@ -10,7 +10,10 @@ function App() {
        {/* <Hello/> */}
       {/* <Hi/> */}
       {/* <Wellcome/> */}
-      <Fullname name="kassaye" Age="20"/>
+      <Fullname name="kassaye" Age="20">
+        <p>This is my react world all are fine work amazing progress today</p>
+         <button>Click me </button>
+         </Fullname>
       <Fullname name="muse"Age="29"/>
       <Fullname name="aron"Age="24"/>
     </div>
