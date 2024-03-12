@@ -25,11 +25,11 @@
             display: none;
         }
 
-        .square input:checked + label::after {
+        .square input:checked + label:after {
             content: 'X';
         }
 
-        .square label::after {
+        .square label:after {
             content: '';
         }
     </style>
@@ -38,40 +38,45 @@
 
     <div class="board-row">
         <div class="square">
-            <input type="radio" id="square1" name="squares" />
+            <input type="checkbox" id="square1" />
             <label for="square1"></label>
         </div>
         <div class="square">
-            <input type="radio" id="square2" name="squares" />
+            <input type="checkbox" id="square2" />
             <label for="square2"></label>
         </div>
         <div class="square">
-            <input type="radio" id="square3" name="squares" />
+            <input type="checkbox" id="square3" />
             <label for="square3"></label>
         </div>
     </div>
 
     <div class="board-row">
         <div class="square">
-            <input type="radio" id="square4" name="squares" />
+            <input type="checkbox" id="square4" />
             <label for="square4"></label>
         </div>
         <div class="square">
-            <input type="radio" id="square5" name="squares" />
+            <input type="checkbox" id="square5" />
             <label for="square5"></label>
         </div>
         <div class="square">
-            <input type="radio" id="square6" name="squares" />
+            <input type="checkbox" id="square6" />
             <label for="square6"></label>
         </div>
-    
+    </div>
+
+    <div class="board-row">
+        <div class="square">
+            <input type="checkbox" id="square7" />
+            <label for="square7"></label>
         </div>
         <div class="square">
-            <input type="radio" id="square8" name="squares" />
+            <input type="checkbox" id="square8" />
             <label for="square8"></label>
         </div>
         <div class="square">
-            <input type="radio" id="square9" name="squares" />
+            <input type="checkbox" id="square9" />
             <label for="square9"></label>
         </div>
     </div>
