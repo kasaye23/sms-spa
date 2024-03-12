@@ -5,7 +5,7 @@ import {Hello} from './components/Functional_comp';
 function App() {
   return (
     <div className="App">
-      {/* <Hello/> */}
+       <Hello/>
       <Hi/>
     </div>
   );
