@@ -15,7 +15,9 @@ function App() {
          <button>Click me </button>
          <p>The easiest way to debug websites built with React is to install the React Developer Tools browser extension. It is available for several popular browsers:</p>
          </Fullname>
-      <Fullname name="muse"Age="29"/>
+      <Fullname name="muse"Age="29">
+        <h6>woo kassaye </h6>
+      </Fullname>
       <Fullname name="aron"Age="24"/>
     </div>
   );
