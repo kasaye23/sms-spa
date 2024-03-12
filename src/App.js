@@ -5,8 +5,8 @@ import {Hello} from './components/Functional_comp';
 function App() {
   return (
     <div className="App">
-       <Hello/>
-      <Hi/>
+       {/* <Hello/> */}
+      {/* <Hi/> */}
     </div>
   );
 }
