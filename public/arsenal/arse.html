@@ -20,24 +20,60 @@
             border: 1px solid #999;
             cursor: pointer;
         }
+
+        .square input {
+            display: none;
+        }
+
+        .square input:checked + label::after {
+            content: 'X';
+        }
+
+        .square label::after {
+            content: '';
+        }
     </style>
 </head>
 <body>
 
     <div class="board-row">
-        <button class="square">X</button>
-        <button class="square"></button>
-        <button class="square"></button>
+        <div class="square">
+            <input type="radio" id="square1" name="squares" />
+            <label for="square1"></label>
+        </div>
+        <div class="square">
+            <input type="radio" id="square2" name="squares" />
+            <label for="square2"></label>
+        </div>
+        <div class="square">
+            <input type="radio" id="square3" name="squares" />
+            <label for="square3"></label>
+        </div>
     </div>
+
     <div class="board-row">
-        <button class="square"></button>
-        <button class="square">X</button>
-        <button class="square"></button>
-    </div>
-    <div class="board-row">
-        <button class="square"></button>
-        <button class="square"></button>
-        <button class="square">X</button>
+        <div class="square">
+            <input type="radio" id="square4" name="squares" />
+            <label for="square4"></label>
+        </div>
+        <div class="square">
+            <input type="radio" id="square5" name="squares" />
+            <label for="square5"></label>
+        </div>
+        <div class="square">
+            <input type="radio" id="square6" name="squares" />
+            <label for="square6"></label>
+        </div>
+    
+        </div>
+        <div class="square">
+            <input type="radio" id="square8" name="squares" />
+            <label for="square8"></label>
+        </div>
+        <div class="square">
+            <input type="radio" id="square9" name="squares" />
+            <label for="square9"></label>
+        </div>
     </div>
 
 </body>
