@@ -7,6 +7,7 @@ import Fullname from './components/props';
 import {Kello} from './Component/functuinal-component';
 import Kidye from './Component/class-comp';
 import Welcome from './Component/jsx';
+import Full_name from './Component/props';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,15 @@ function App() {
       <Kello></Kello>
       <Kidye></Kidye>
       <Welcome></Welcome>
+      <Full_name name="kidest" age="20">
+        <h6>KASSAYE WIFE</h6>
+        <button>kassaye</button>
+      </Full_name>
+      <Full_name name="tsehay" age="28"></Full_name>
+      <h2>Abel</h2>
+      <Full_name name="desta" age="19"></Full_name>
+      <h3>lidetu</h3>
+      <Full_name name ="hodye"age="11"></Full_name>
     </div>
   );
 }
