@@ -4,7 +4,7 @@ import Hi from './components/Class_comp';
 import {Hello} from './components/Functional_comp';
 import Wellcome from './components/jsx';
 import Fullname from './components/props';
-import Kello from './Component/functuinal-component';
+import {Kello} from './Component/functuinal-component';
 function App() {
   return (
     <div className="App">
