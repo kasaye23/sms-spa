@@ -6,6 +6,7 @@ import Wellcome from './components/jsx';
 import Fullname from './components/props';
 import {Kello} from './Component/functuinal-component';
 import Kidye from './Component/class-comp';
+import Welcome from './Component/jsx';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
       <Fullname name="aron"Age="24"/> */}
       <Kello></Kello>
       <Kidye></Kidye>
+      <Welcome></Welcome>
     </div>
   );
 }
