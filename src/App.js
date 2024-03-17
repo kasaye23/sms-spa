@@ -10,6 +10,7 @@ import Welcome from './Component/jsx';
 import Full_name from './Component/props';
 import Subscribe from './Component/state';
 import Event_Function from './Component/event_onFunction';
+import Event_class from './Component/Event_class';
 function App() {
   return (
     <div className="App">
@@ -38,7 +39,8 @@ function App() {
       <h3>lidetu</h3>
       <Full_name name ="hodye"age="11"></Full_name> */}
       {/* <Subscribe></Subscribe> */}
-      <Event_Function></Event_Function>
+      {/* <Event_Function></Event_Function> */}
+    <Event_class></Event_class>
     </div>
   );
 }

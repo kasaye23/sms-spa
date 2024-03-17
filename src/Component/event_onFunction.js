@@ -9,6 +9,7 @@ function Event_Function() {
     <div>
       <button onClick={Handler}>Click me</button>
     </div>
+    
   )
 }
 
