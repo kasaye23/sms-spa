@@ -23,7 +23,7 @@ function App() {
         <h6>wow kassaye </h6>
       </Fullname>
       <Fullname name="aron"Age="24"/> */}
-      <Kello></Kello>
+      {/* <Kello></Kello>
       <Kidye></Kidye>
       <Welcome></Welcome>
       <Full_name name="kidest" age="20">
@@ -34,7 +34,7 @@ function App() {
       <h2>Abel</h2>
       <Full_name name="desta" age="19"></Full_name>
       <h3>lidetu</h3>
-      <Full_name name ="hodye"age="11"></Full_name>
+      <Full_name name ="hodye"age="11"></Full_name> */}
     </div>
   );
 }
