@@ -22,6 +22,8 @@ export default class props extends Component {
             <div>
                 <h1> {this.props.name}  tekle {this.props.age}</h1>
             {this.props.children}
+
+            
             </div>
         )
     }
