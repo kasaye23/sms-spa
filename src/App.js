@@ -36,7 +36,7 @@ function App() {
       <Full_name name="desta" age="19"></Full_name>
       <h3>lidetu</h3>
       <Full_name name ="hodye"age="11"></Full_name> */}
-      <Subscribe></Subscribe>
+      {/* <Subscribe></Subscribe> */}
     </div>
   );
 }
