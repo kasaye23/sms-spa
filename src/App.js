@@ -40,7 +40,7 @@ function App() {
       <Full_name name ="hodye"age="11"></Full_name> */}
       {/* <Subscribe></Subscribe> */}
       {/* <Event_Function></Event_Function> */}
-    <Event_class></Event_class>
+    {/* <Event_class></Event_class> */}
     </div>
   );
 }
